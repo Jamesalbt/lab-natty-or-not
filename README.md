@@ -1,51 +1,26 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# AtacaDisk: Um Mercado que Nunca Existiu
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Este projeto explora o poder das IAs generativas para criar uma cena hiper-realista do zero: uma cliente sorridente em frente a um supermercado fictício chamado "AtacaDisk". A partir de uma imagem estática, o projeto evoluiu para um vídeo com avatar falante, dando "vida" à personagem através de locução sincronizada.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+- Google Gemini (geração da imagem)
+- [Nome da ferramenta usada para animar o avatar/gerar o vídeo — ex: HeyGen, D-ID, Hedra, Kling]
+- FFmpeg (pós-produção: normalização de áudio, corte de silêncio, fades)
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+1. **Imagem**: criei um prompt detalhado no Gemini pedindo uma cena de "street photography" em frente a um supermercado fictício, com iluminação natural, pessoas ao fundo e uma fachada de loja com nome e promoções.
+2. **Roteiro/Locução**: escrevi uma fala curta e comercial ("Olá! Seja bem-vindo ao AtacaDisk...") para dar voz à personagem.
+3. **Vídeo**: usei [ferramenta] para animar a imagem estática em um vídeo com avatar falante, sincronizando a locução com os movimentos labiais.
+4. **Pós-produção**: identifiquei e corrigi problemas técnicos no vídeo final — corte de silêncio no início, normalização de volume (loudness) e fades de áudio, usando FFmpeg.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+O resultado final é um vídeo de 10 segundos com boa consistência visual (luz, sombra, composição) e áudio equilibrado. A imagem estática por si só já é convincente à primeira vista; o vídeo evolui isso adicionando movimento e fala.
+
+**Limitações identificadas:**
+- Pequena dessincronia labial em alguns momentos da fala
+- Textos nos cartazes de fundo ficam distorcidos quando ampliados
+- Movimento do fundo (outras pessoas/carrinhos) é mais estático que em um vídeo real
 
 ## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
-
-### Exemplos e Insigths
-
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+Esse projeto mostrou que hoje é possível ir de uma simples ideia até um vídeo com avatar falante realista, apenas combinando diferentes ferramentas de IA generativa. Ao mesmo tempo, ficou claro que os detalhes finos — sincronia labial, texto legível, movimento natural de fundo — ainda são os pontos onde a IA "entrega o jogo", e onde entra o trabalho humano de revisão e pós-produção pra deixar tudo mais "natty"
